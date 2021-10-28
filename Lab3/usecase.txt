@@ -1,0 +1,29 @@
+@startuml
+skinparam actor {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+autonumber
+
+actor "Сотрудник" as user
+boundary "Дисплей" as app
+entity "Допустимые значения" as db1
+control "Контроллер" as ctl
+entity "Результаты анализов" as db2
+
+user -> app: артикул мебели
+app -> db1: запрос на получение допустимого значения
+activate db1 
+db1 -> ctl: запустить тестирование
+activate ctl
+db1 --> app: данные не найдены
+deactivate db1 
+ctl-> db2: записать результат
+activate db2
+db2--> ctl: результат записан
+deactivate db2
+ctl--> app: тест завершен
+deactivate ctl
+app--> user: отображение результата
+@enduml
