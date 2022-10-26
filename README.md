@@ -37,8 +37,6 @@ Landing Page проекта - [TBD]
 
 ## Бакалавриат - архив
 
-## ► Отчет по [лабораторной работе 1](https://github.com/Welpodron/welpodron.github.io/wiki/Лабораторная-работа-1)
-
 ## ► Отчет по [лабораторной работе 2](https://github.com/Welpodron/welpodron.github.io/wiki/Лабораторная-работа-2)
 
 ## ► Отчет по [лабораторной работе 3](https://github.com/Welpodron/welpodron.github.io/wiki/Лабораторная-работа-3)
