@@ -35,6 +35,8 @@ Landing Page проекта - [TBD]
 
 [Отчет](https://docs.google.com/document/d/1-a7YnYALawn5uDJ6lek1hsA0oB2FV0Bd/edit?usp=sharing&ouid=103630481525366677142&rtpof=true&sd=true)
 
+## Экзаменационный билет 7: [Билет](https://github.com/stankin/inet-2022/wiki/exam07)
+
 ## Бакалавриат - архив
 
 ## ► [Курсовой проект](https://github.com/Welpodron/welpodron.github.io/wiki/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82)
