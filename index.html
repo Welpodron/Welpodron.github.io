@@ -11,6 +11,17 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        window.cefQuery({
+    request: 'BindingTest:',
+    onSuccess: function(response) {
+      document.querySelector('alert').value = 'Response: '+response;
+    },
+    onFailure: function(error_code, error_message) {}
+  });
+      })
+    </script>
   </head>
   <body>
     <style>
